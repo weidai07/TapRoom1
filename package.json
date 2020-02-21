@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/epicodus-lessons/TapRoom.git"
+    "url": "git+https://github.com/weidai07/TapRoom1.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/epicodus-lessons/TapRoom/issues"
+    "url": "https://github.com/weidai07/TapRoom1/issues"
   },
-  "homepage": "https://github.com/epicodus-lessons/TapRoom#readme",
+  "homepage": "https://github.com/weidai07/TapRoom1#readme",
   "dependencies": {
     "moment": "^2.24.0",
     "prop-types": "^15.5.10",

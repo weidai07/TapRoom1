@@ -9,7 +9,7 @@ import Admin from './Admin';
 import { v4 } from 'uuid';
 // import Background from '../assets/images/background.jpg';
 
-// function Image(){
+// function Apps(){
 //   var style = {  
 //     backgroundImage: 'url(' + Background + ')',
 //     backgroundPosition: 'fixed',
@@ -24,7 +24,7 @@ import { v4 } from 'uuid';
 //         <Header/>
 //         <Switch>
 //           <Route exact path='/' component={BeerList} />
-//           <Route path='/newbeerscheduleform' component={NewBeerForm} />
+//           <Route path='/newbeerform' component={NewBeerForm} />
 //           <Route component={Error404} />
 //         </Switch>
 //       </div>
@@ -35,6 +35,16 @@ import { v4 } from 'uuid';
 class App extends React.Component {
 
   constructor(props) {
+
+    // var style = {  
+    //   backgroundImage: 'url(' + Background + ')',
+    //   backgroundPosition: 'fixed',
+    //   backgroundSize: 'cover',
+    //   backgroundRepeat: 'repeat',
+    //   minHeight: '100vh',
+    //   minWidth: '100%'
+    // };
+
     super(props);
     this.state = {
       masterBeerList: {},
@@ -78,6 +88,7 @@ class App extends React.Component {
 
   render(){
     console.log(this.state.masterBeerList);
+
     return (
       <div>
         <Header/>
