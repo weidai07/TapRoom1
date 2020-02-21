@@ -1,0 +1,59 @@
+apm install react
+
+npm init
+npm install react@15.5.4 react-dom@15.5.4 --save
+npm install webpack@3.4.0 --save-dev
+npm install webpack@3.4.0 -g
+
+npm install babel-core@6.24.1 babel-loader@7.0.0 babel-preset-es2015@6.24.1 babel-preset-react@6.24.1 --save-dev
+
+webpack
+
+npm install prop-types@15.5.10 --save
+npm install webpack-dev-server@2.5.0 -g
+npm install webpack-dev-server@2.5.0 --save-dev
+
+webpack
+webpack-dev-server
+
+npm install react-hot-loader@3.0.0-beta.7 --save-dev
+npm install html-webpack-plugin@2.29.0 --save-dev
+
+webpack-dev-server
+
+----------------------------------------------------------------
+ESLint
+
+
+npm install eslint@4.13.1 -g
+npm install eslint@4.13.1 --save-dev
+
+eslint --init
+
+Are you using ECMAScript 6 features? Yes
+? Are you using ES6 modules? Yes
+? Where will your code run? Browser
+? Do you use CommonJS? No
+? Do you use JSX? Yes
+? Do you use React? Yes
+? What style of indentation do you use? Spaces
+? What quotes do you use for strings? Single
+? What line endings do you use? Unix
+? Do you require semicolons? Yes
+? What format do you want your config file to be in? JSON
+
+
+eslint src/** src/**/** (running ESLint)
+
+
+npm install eslint-plugin-react -g
+npm install eslint-plugin-react --save-dev
+
+ npm run lint
+ npm install eslint-loader --save-dev
+
+-----------------------------------------------
+
+npm install url-loader@0.6.2 --save-dev
+npm install file-loader@1.1.6 --save-dev
+

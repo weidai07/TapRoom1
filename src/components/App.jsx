@@ -4,9 +4,33 @@ import BeerList from './BeerList';
 import NewBeerControl from './NewBeerControl';
 import Error404 from './Error404';
 import { Switch, Route } from 'react-router-dom';
-import Moment from 'moment';
+// import Moment from 'moment';
 import Admin from './Admin';
 import { v4 } from 'uuid';
+// import Background from '../assets/images/background.jpg';
+
+// function Image(){
+//   var style = {  
+//     backgroundImage: 'url(' + Background + ')',
+//     backgroundPosition: 'fixed',
+//     backgroundSize: 'cover',
+//     backgroundRepeat: 'repeat',
+//     minHeight: '100vh',
+//     minWidth: '100%'
+//   };
+//   return (
+//     <div style={style}>
+//       <div>
+//         <Header/>
+//         <Switch>
+//           <Route exact path='/' component={BeerList} />
+//           <Route path='/newbeerscheduleform' component={NewBeerForm} />
+//           <Route component={Error404} />
+//         </Switch>
+//       </div>
+//     </div>
+//   );
+// }
 
 class App extends React.Component {
 
@@ -68,7 +92,6 @@ class App extends React.Component {
       </div>
     );
   }
-
 }
 
 export default App;
