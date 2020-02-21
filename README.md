@@ -23,7 +23,7 @@ Github - https://github.com/weidai07/TapRoom1
 
 ### Specification
 
-This program is designed to allow users to search for the different types of beer that are available in the Tap Room as well as the amount and price of each beer. 
+This program is designed to show state management functions in react. Please see attached structure diagram. 
 
 ![Project Structure Diagram](/RouteStructure.png)
 
