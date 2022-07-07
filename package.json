@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/weidai07/TapRoom1#readme",
   "dependencies": {
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
